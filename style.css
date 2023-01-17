@@ -30,6 +30,12 @@ nav>div {
     background-image: url(./images/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    transition-duration: 2s;
+}
+
+.child1:hover {
+    transform: rotate(10deg) scale(1.08);
+    transition-duration: 2s;
 }
 
 .child8 {
