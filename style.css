@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 nav {
@@ -38,6 +39,7 @@ nav>div {
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
+    transition-duration: 1s;
 }
 
 .image1:hover {
@@ -47,9 +49,19 @@ nav>div {
 
 .text1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 35%;
     z-index: 2;
+}
+
+.text1>h2 {
+    font-size: 34px;
+    color: white;
+}
+
+.text1>h2:hover {
+    color: #ff3271;
+    cursor: pointer;
 }
 
 .child8 {
