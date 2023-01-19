@@ -58,11 +58,13 @@ nav>div {
     font-size: 34px;
     color: white;
     padding-bottom: 20px;
+    transition-duration: 1s;
 }
 
 .text1>h2:hover {
     color: #ff3271;
     cursor: pointer;
+    transition-duration: 1s;
 }
 
 .text1>button {
@@ -72,6 +74,7 @@ nav>div {
     color: white;
     padding: 20px;
     border-radius: 30px;
+    transition-duration: 1s;
 }
 
 .text1>button:hover {
@@ -79,6 +82,7 @@ nav>div {
     border: 1px solid #ff3271;
     background-color: transparent;
     color: #ff3271;
+    transition-duration: 1s;
 }
 
 .child8 {
