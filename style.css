@@ -33,17 +33,17 @@ nav>div {
     overflow: hidden;
 }
 
+.child1:hover .image1 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
+}
+
 .image1 {
     background-image: url(./images/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    transition-duration: 1s;
-}
-
-.image1:hover {
-    transform: scale(1.2) rotate(10deg);
     transition-duration: 1s;
 }
 
@@ -57,11 +57,28 @@ nav>div {
 .text1>h2 {
     font-size: 34px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .text1>h2:hover {
     color: #ff3271;
     cursor: pointer;
+}
+
+.text1>button {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background-color: #ff3271;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.text1>button:hover {
+    box-sizing: border-box;
+    border: 1px solid #ff3271;
+    background-color: transparent;
+    color: #ff3271;
 }
 
 .child8 {
