@@ -27,15 +27,21 @@ nav>div {
 
 .child1 {
     grid-area: 1/1/3/3;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.child1>div {
     background-image: url(./images/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    transition-duration: 2s;
+    width: 100%;
+    height: 100%;
 }
 
-.child1:hover {
-    transform: rotate(10deg) scale(1.08);
-    transition-duration: 2s;
+.child1>div:hover {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
 }
 
 .child8 {
