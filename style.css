@@ -31,7 +31,7 @@ nav>div {
     overflow: hidden;
 }
 
-.child1>div {
+.image1 {
     background-image: url(./images/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -39,9 +39,14 @@ nav>div {
     height: 100%;
 }
 
-.child1>div:hover {
+.image1:hover {
     transform: scale(1.2) rotate(10deg);
     transition-duration: 1s;
+}
+
+.text1 {
+    width: 100%;
+    height: 100%;
 }
 
 .child8 {
