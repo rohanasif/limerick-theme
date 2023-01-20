@@ -103,11 +103,17 @@ nav>div {
     transition-duration: 1s;
 }
 
+.icon-hover {
+    position: relative;
+}
+
 .icon-hover::after {
+    position: absolute;
     content: "";
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    z-index: 3;
 }
 
 .child8 {
