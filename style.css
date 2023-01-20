@@ -115,7 +115,7 @@ nav>div {
     height: 100px;
     background-color: #ff3271;
     z-index: 3;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 
@@ -127,18 +127,18 @@ nav>div {
     width: 0%;
     height: 100px;
     background-color: black;
-    z-index: 2;
-    transition-duration: 1s;
+    z-index: 3;
+    transition-duration: 0.5s;
 }
 
 .child2:hover .icon-hover::after {
     width: 50%;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .child2:hover .icon-hover::before {
     width: 50%;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 
