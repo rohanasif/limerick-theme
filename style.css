@@ -107,14 +107,40 @@ nav>div {
     position: relative;
 }
 
+.icon-hover::before {
+    position: absolute;
+    top: 110px;
+    content: "";
+    width: 0%;
+    height: 100px;
+    background-color: #ff3271;
+    z-index: 3;
+    transition-duration: 1s;
+}
+
+
 .icon-hover::after {
+    top: 110px;
+    right: 0px;
     position: absolute;
     content: "";
-    width: 200px;
+    width: 0%;
     height: 100px;
-    background-color: aqua;
-    z-index: 3;
+    background-color: black;
+    z-index: 2;
+    transition-duration: 1s;
 }
+
+.child2:hover .icon-hover::after {
+    width: 50%;
+    transition-duration: 1s;
+}
+
+.child2:hover .icon-hover::before {
+    width: 50%;
+    transition-duration: 1s;
+}
+
 
 .child8 {
     grid-area: 3/3/4/5;
