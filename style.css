@@ -113,7 +113,7 @@ nav>div {
     content: "";
     width: 0%;
     height: 100px;
-    background-color: #ff3271;
+    background-color: rgba(255, 50, 113, 0);
     z-index: 3;
     transition-duration: 0.5s;
 }
@@ -126,7 +126,7 @@ nav>div {
     content: "";
     width: 0%;
     height: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     z-index: 3;
     transition-duration: 0.5s;
 }
@@ -134,11 +134,13 @@ nav>div {
 .child2:hover .icon-hover::after {
     width: 50%;
     transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .child2:hover .icon-hover::before {
     width: 50%;
     transition-duration: 0.5s;
+    background-color: rgba(255, 50, 113, 0.9);
 }
 
 
