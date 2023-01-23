@@ -125,7 +125,7 @@ nav>div {
     padding: 10px;
 }
 
-.child2:hover .icon-hover {
+.child:hover .icon-hover {
     transition-duration: 0.5s;
     top: 110px;
     visibility: visible;
@@ -160,13 +160,13 @@ nav>div {
     transition-duration: 0.5s;
 }
 
-.child2:hover .bar-hover::after {
+.child:hover .bar-hover::after {
     width: 50%;
     transition-duration: 0.5s;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.child2:hover .bar-hover::before {
+.child:hover .bar-hover::before {
     width: 50%;
     transition-duration: 0.5s;
     background-color: rgba(255, 50, 113, 0.9);
@@ -192,12 +192,20 @@ nav>div {
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
+    transition-duration: 1s;
 }
 
 .child3:hover .image3 {
     transform: scale(1.2) rotate(10deg);
     transition-duration: 1s;
 }
+
+.child3:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
 
 .child8 {
     grid-area: 3/3/4/5;
