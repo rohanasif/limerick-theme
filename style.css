@@ -206,6 +206,54 @@ nav>div {
     visibility: visible;
 }
 
+.child4 {
+    position: relative;
+    overflow: hidden;
+}
+
+.image4 {
+    background-image: url(./images/4.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+
+.child4:hover .image4 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
+}
+
+.child5:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
+.child5 {
+    position: relative;
+    overflow: hidden;
+}
+
+.image5 {
+    background-image: url(./images/5.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+
+.child5:hover .image5 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
+}
+
+.child5:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
 
 .child8 {
     grid-area: 3/3/4/5;
