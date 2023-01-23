@@ -94,6 +94,7 @@ nav>div {
 }
 
 .child2 {
+    position: relative;
     transition-duration: 1s;
     overflow: hidden;
 }
@@ -104,10 +105,38 @@ nav>div {
 }
 
 .icon-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+    visibility: hidden;
+    top: 150px;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100px;
+    background-color: transparent;
+    z-index: 4;
+}
+
+.icon-hover>i {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.child2:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
+
+.bar-hover {
     position: relative;
 }
 
-.icon-hover::before {
+.bar-hover::before {
     position: absolute;
     top: 110px;
     content: "";
@@ -119,7 +148,7 @@ nav>div {
 }
 
 
-.icon-hover::after {
+.bar-hover::after {
     top: 110px;
     right: 0px;
     position: absolute;
@@ -131,18 +160,32 @@ nav>div {
     transition-duration: 0.5s;
 }
 
-.child2:hover .icon-hover::after {
+.child2:hover .bar-hover::after {
     width: 50%;
     transition-duration: 0.5s;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.child2:hover .icon-hover::before {
+.child2:hover .bar-hover::before {
     width: 50%;
     transition-duration: 0.5s;
     background-color: rgba(255, 50, 113, 0.9);
 }
 
+.child3 {
+    background-image: url(./images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
 
 .child8 {
     grid-area: 3/3/4/5;
