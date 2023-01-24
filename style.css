@@ -248,19 +248,82 @@ nav>div {
     transition-duration: 1s;
 }
 
-.child5:hover .icon-hover {
+.child6:hover .icon-hover {
     transition-duration: 0.5s;
     top: 110px;
     visibility: visible;
 }
 
+.child6 {
+    position: relative;
+    overflow: hidden;
+}
+
+.image6 {
+    background-image: url(./images/6.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+
+.child6:hover .image6 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
+}
+
+.child7 {
+    background-color: #AC60FF;
+}
 
 .child8 {
     grid-area: 3/3/4/5;
+    position: relative;
+    overflow: hidden;
+}
+
+.child8:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
+.image8 {
+    background-image: url(./images/8.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+
+.child8:hover .image8 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
 }
 
 .child9 {
     grid-area: 4/1/4/3;
+    position: relative;
+    overflow: hidden;
+}
+
+.child9:hover .icon-hover {
+    transition-duration: 0.5s;
+    top: 110px;
+    visibility: visible;
+}
+
+.image9 {
+    background-image: url(./images/10\ \(1\).jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+
+.child9:hover .image9 {
+    transform: scale(1.2) rotate(10deg);
+    transition-duration: 1s;
 }
 
 .child14 {
